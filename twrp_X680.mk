@@ -12,13 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from Infinix-X680 device
-$(call inherit-product, device/infinix/Infinix-X680/device.mk)
+$(call inherit-product, device/infinix/X680/device.mk)
 
-PRODUCT_DEVICE := Infinix-X680
-PRODUCT_NAME := omni_Infinix-X680
+PRODUCT_DEVICE := X680
+PRODUCT_NAME := omni_X680
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X680
+PRODUCT_MODEL := X680
 PRODUCT_MANUFACTURER := infinix
+PRODUCT_RELEASE_NAME := Infinix Hot 9 Play X680
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-infinix-rev1
 
