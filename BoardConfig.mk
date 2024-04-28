@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X680
+DEVICE_PATH := device/infinix/X680
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ TARGET_USES_64_BIT_BINDER := true
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X680
+TARGET_BOOTLOADER_BOARD_NAME := X680_H6116
 TARGET_NO_BOOTLOADER := true
 
 # Display
